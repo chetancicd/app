@@ -15,7 +15,7 @@ build-parameters:
         - npx rimraf gen/db/src/gen/csv  # uncomment this line unless db/csv folder has been used for config/control table data which is entirely managed by the developer and never changed by the app
 
 modules:
-  # ---------------- DATABASE DEPLOYER MODULE ------------------
+  # ---------------- DATABASE DEPLOYER MODULEg ------------------
   - name: app-db-deployer
   # ------------------------------------------------------------
     type: hdb
